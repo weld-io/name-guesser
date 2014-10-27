@@ -8,13 +8,13 @@ Inspired by [Genderize.io](http://genderize.io).
 
 Request:
 
-	http://localhost:3000/?email=jane.doe@google.com
+	http://localhost:3000/.json?email=jane.doe@google.com
 
 Response:
 
 	{
 		email: "jane.doe@google.com",
-		name: "Jane Doe"
+		fullName: "Jane Doe"
 		firstName: "Jane",
 		lastName: "Doe",
 		gender: "female",

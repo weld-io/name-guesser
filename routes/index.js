@@ -2,21 +2,16 @@ var express = require('express');
 var router = express.Router();
 var emailtools = require('../lib/emailtools');
 
-/* GET home page. */
-router.get('/', function(req, res) {
+module.exports.index = function(req, res) {
 
-	console.log(req.query);
+	console.log('format', req.params);
 
-	res.format({
-		html: function(){
-			res.render('index', { title: 'Name Guesser' });
-		},
 
-		json: function(){
-			res.json(emailtools.processUser(req.query));
-		}
-	});
+	if (req.params.format) {
+		res.json(emailtools.processUser(req.query));
+	}
+	else {
+		res.render('index', { title: 'Name Guesser' });
+	}
 
-});
-
-module.exports = router;
+};

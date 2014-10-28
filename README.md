@@ -10,7 +10,7 @@ Request:
 
 	http://localhost:3000/.json?email=jane.doe@google.com
 
-Response:
+Response*:
 
 	{
 		email: "jane.doe@google.com",
@@ -24,3 +24,5 @@ Response:
 			domain: "google.com"
 		}
 	}
+
+*Gender and Company not yet implemented.

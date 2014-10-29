@@ -9,6 +9,7 @@ Inspired by [Genderize.io](http://genderize.io).
 Request:
 
 	http://localhost:3000/.json?email=jane.doe@google.com
+	http://localhost:3000/.json?email=jane.doe@google.com&country=us // country code for gender not yet implemented
 
 Response*:
 

@@ -71,5 +71,13 @@ module.exports = function (grunt) {
 		}, 500);
 	});
 
-	grunt.registerTask('default', ['develop', 'watch']);
+	grunt.registerTask('serve', [
+		'develop',
+		'watch'
+	]);
+
+	grunt.registerTask('default', [
+		'serve'
+	]);
+
 };

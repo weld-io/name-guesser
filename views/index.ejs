@@ -4,4 +4,25 @@
 <p>API service for guessing name, gender, company etc based on just an email address.</p>
 <p>Example: <a href="/.json?email=jane.doe@google.com">http://SERVER/.json?email=jane.doe@google.com</a></p>
 
+<h2>Supported email formats</h2>
+
+<ul>
+<li>firstname_lastname</li>
+<li>firstname-lastname</li>
+<li>firstname.*@</li>
+<li>firstname.lastname@ - e.g. greg.larson@gmail.com</li>
+<li>firstname.lastname.lastname@ (multiple last names) - e.g. greg.larson.smith@gmail.com</li>
+<li>lastname.firstname@</li>
+<li>firstname@ - e.g. greg@gmail.com</li>
+<li>firstname@lastname - e.g. greg@larson.com</li>
+<li>firstname*@ - e.g. gregory231@gmail.com</li>
+<li>firstnamelastname@ - e.g. greglarson@gmail.com</li>
+<li>*lastname@ - e.g. glarson@gmail.com</li>
+<li>firstnamelastname@ (short firstname) - e.g. greglarson@gmail.com</li>
+<li>lastname*@ - e.g. larsong231@gmail.com</li>
+<li>lastnamefirstname@ - e.g. larsongreg@gmail.com</li>
+<li>*@firstnamelastname - e.g. hello@greglarson.com</li>
+<li>firstnamelastname@ - e.g. greglarson@gmail.com</li>
+</ul>
+
 <% include footer %>

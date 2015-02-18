@@ -1,6 +1,6 @@
 # Name Guesser
 
-JSON API that helps you guess a user's name and company from just an email address.
+JSON API to guess a user's name and company from just an email address.
 
 Initially built to support [Weld](https://www.weld.io).
 

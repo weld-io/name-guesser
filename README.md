@@ -6,6 +6,8 @@ Initially built to support [Weld](https://www.weld.io).
 
 Inspired by [Genderize.io](http://genderize.io).
 
+![Name Guesser example](example.png)
+
 ## Supported email formats
 
 * *@firstnamelastname - e.g. hello@greglarson.com

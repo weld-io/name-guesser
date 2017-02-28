@@ -2,9 +2,14 @@
 
 JSON API to guess a user's name and company from just an email address.
 
-Initially built to support [Weld](https://www.weld.io).
-
 Inspired by [Genderize.io](http://genderize.io).
+
+Made by the team at **Weld** ([www.weld.io](https://www.weld.io?utm_source=github-name-guesser)), the code-free app and web creation tool:
+
+[![Weld](https://s3-eu-west-1.amazonaws.com/weld-social-and-blog/gif/weld_explained.gif)](https://www.weld.io?utm_source=github-name-guesser)
+
+
+## Screenshot
 
 ![Name Guesser example](example.png)
 
